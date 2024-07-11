@@ -42,7 +42,11 @@
     ]
   },
   "homepage": "https://tatsruh.github.io/itIncubator-card/",
-  "predeploy": "yarn run build",
-  "deploy": "gh-pages -d build"
 
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
