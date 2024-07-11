@@ -40,5 +40,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": "https://tatsruh.github.io/itIncubator-card/",
+  "predeploy": "yarn run build",
+  "deploy": "gh-pages -d build",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
